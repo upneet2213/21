@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  background-color: #f4f4f4;
+  min-height: 100vh;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+nav {
+  height: 10vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+  margin: auto;
+  background-color: rgb(95, 158, 160);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+nav ul {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo {
+  width: 20%;
+  color: white;
+  margin-left: 40px;
+}
+.nav-btn {
+  font-size: 15px;
+  padding: 10px 25px;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.nav-btn:hover {
+  border-bottom: 1px solid white;
+}
+.headings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  flex-direction: column;
+}
+
+.homepage-heading {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.grid {
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 20px auto;
+  grid-gap: 20px;
+}
+.grid-item {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.grid-image {
+  width: 40%;
+  margin: auto;
+}
+.grid-header {
+  padding: 10px;
+}
+.grid-header h4,
+.grid-header p {
+  margin: 10px 0;
+}
+.primary-btn {
+  background: none;
+  border: none;
+  padding: 15px 25px;
+  background-color: tomato;
+  text-align: center;
+  color: white;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.single-page {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.single-page-tab {
+  max-width: 70%;
+  background: white;
+  padding: 30px;
+}
+.header {
+  padding: 20px 0;
+}
+.details {
+  padding: 10px 0;
+}
+.header h2 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.header p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.links {
+  display: flex;
+  justify-content: center;
+}
+.links a {
+  margin: 10px;
+}
