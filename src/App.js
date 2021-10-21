@@ -18,10 +18,10 @@ function App() {
           <Route path="/" exact>
             <Home />
           </Route>
-          <Route path="/launches/:choice" exact>
+          <Route path="/launches/:choice">
             <Choice choice={choice} />
           </Route>
-          <Route path="/launch/:id" exact>
+          <Route path="/launch/:id">
             <SingleLaunch />
           </Route>
           <Route path="*">

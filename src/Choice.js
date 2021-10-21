@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Loading } from "./Loading";
+import { Loading } from "./Pages/Loading";
 import { Link } from "react-router-dom";
 
 export const Choice = ({ choice }) => {
@@ -18,7 +18,7 @@ export const Choice = ({ choice }) => {
     };
     setIsLoading(true);
     fetchLaunches();
-  }, []);
+  }, [choice]);
 
   return isLoading ? (
     <Loading />

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { Loading } from "../Loading";
+
+import { Loading } from "./Loading";
 
 export const SingleLaunch = () => {
   const { id } = useParams();
